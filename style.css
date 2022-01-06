@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+header {
+    background:  linear-gradient(0deg, hsla(0, 0%, 100%, 0) -29.64%,
+     #FFF8F8 45.66%
+     );
+}
+
+button {
+    border: none;
+    padding: 0.7rem 2rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+header nav img {
+    width: 15rem;
+    height: 5rem;
+}
+
+ header nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-item p {
+    margin-right: 2rem;
+}
+
+header nav .nav-item button {
+color: #ff383d;
+border: 1px solid #ff383d;
+background-color: transparent;
+border-radius: 5rem;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+header section .section-content {
+  margin-top: 7rem;
+  width: 55%;
+}
+
+header section .section-content h1 {
+    font-size: 2.5rem;
+    font-weight: 0.5rem;
+     margin: 0;
+     color: #035755;
+     text-transform: capitalize;
+     line-height: 112%;
+     font-family: 'Red Hat Display', sans-serif;
+    }
+
+header section .section-image {
+    width: 80%;
+}
+
+header section .section-image img {
+    width: 100%;
+    height: auto;
+}
+
+header section .section-content span {
+    font-size: 1.3rem;
+    color: #fa5652;
+    font-weight: bolder;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 112%;
+}
+
+header section .section-content  p {
+    font-size: 100%;
+    color: #4b4f51;
+    font-weight: 0;
+    line-height: 190%;
+ font-family: 'Red Hat Display', sans-serif;
+}
+
+
+header section .section-content button {
+    background: #fb4c47;
+    box-shadow: 0 8px 87px rgb(0 0 0 / 10%);
+    border-radius: 6.3rem;
+    border: none;
+    padding: 0.9rem 4rem;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-family: 'red hat display' , sans-serif;
+    outline: none;
+    transition: all .4s;
+} 
+
+header nav .nav-item p {
+    text-decoration: unset;
+    color: #035755;
+    font-family: "Muli";
+    font-weight: 600;
+    margin: 0 1rem;
+    position: relative;
+    transition: all .5s;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+span {
+    font-size: 1.3rem;
+    color: #fa5652;
+    font-weight: bolder;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 112%;
+}
+
+
+h1,
+h2{
+    font-size: 2.5rem;
+    font-weight: 0.5rem;
+     margin: 0;
+     color: #035755;
+     text-transform: capitalize;
+     line-height: 112%;
+     font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.section-about  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.section-about .about-image img {
+  width: 40rem;
+}
+
+.section-about .divispan  p {
+    font-size: 100%;
+    color: #4b4f51;
+    font-weight: 0;
+    line-height: 190%;
+ font-family: 'Muli', sans-serif;
+ padding: 0 auto;
+ width: 40rem;
+}
+
+ .section-about .divispan button{
+    background: rgba(250,86,82,.15);
+    color: #fb4c47;
+    box-shadow: 0 8px 87px rgb(0 0 0 / 10%);
+    border-radius: 6.3rem;
+    border: none;
+    padding: 0.9rem 4rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-family: 'red hat display' , sans-serif;
+    outline: none;
+    transition: all .4s;
+}
+
+ 
+.covidtype .typecovid .covidtypeimage img {
+    width: 25rem;
+    border-radius: 6rem;
+}
+
+p {
+    font-size: 100%;
+    color: #4b4f51;
+    font-weight: 0;
+    line-height: 190%;
+ font-family: 'Muli', sans-serif;
+ 
+}
+
+
+
+
+.covidtype .typecovid .covidtypeimage  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+.covidtype {
+    display: flex;
+    justify-content: center;
+} 
+  
+
+  .covidtype .typecovid .spain  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+   .covidtype .typecovid .h21  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+   }
+
+   .covidtype .typecovid .p2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+   }
+
+
+.spanish {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .covidsymptoms .symptomscovid .covidsymptomsimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .covidsymptoms .symptomscovid .covidsymptomsimage img {
+       width: 40rem;
+   }
+
+   .covidsymptoms  {
+       padding: 3rem;
+   }
+
+    .aboutcovid   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .wearmask {
+       display: flex;
+        justify-content: center;
+        
+        align-items: center;
+    }
+
+    .wearmask .maskimage img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maskgirl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maskgirl .maskgirlimage img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+    }
+
+    .masklady {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .masklady .maskladyimage img {
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer nav .navigate {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    footer nav .navigate p {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    footer nav div img {
+        width: 20rem;
+    }
